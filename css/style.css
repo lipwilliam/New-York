@@ -1,0 +1,77 @@
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/source-sans-pro-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/source-sans-pro-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/source-sans-pro-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/source-sans-pro-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/source-sans-pro-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/source-sans-pro-v21-latin-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+}
+
+/* Redéfinition des tailles de police en base 10 */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Source Sans Pro;
+}
+
+.sommaire {
+    text-align: start;
+}
+
+.citation {
+    background-color: #d7e1ef;
+}
+
+.img-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.img-right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+
+.fonce {
+    color: #003884;
+    font-weight: bold;
+}
+
+.moyen {
+    color: #4f89b9;
+    font-style: italic;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+.footer {
+    border-top: solid #003884;
+}
+
+.h1, .h2, .h3 {
+    font-family: courgette;
+}
